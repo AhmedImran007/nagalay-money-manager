@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Col, Container, Nav, Row } from "react-bootstrap";
 import LogoVR from "../../../images/logo_vr.png";
+import AllHost from "./AllHost/AllHost";
 
 const UserManagement = () => {
   return (
@@ -25,7 +26,9 @@ const UserManagement = () => {
               <Button>Sign Out</Button>
             </div>
           </Col>
-          <Col sm={9}></Col>
+          <Col sm={9}>
+            <AllHost></AllHost>
+          </Col>
         </Row>
       </Container>
     </div>
